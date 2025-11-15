@@ -148,34 +148,38 @@
             >
               <div>
                 <h3 class="experience-title">Assistant Stock Controller</h3>
-                <p class="company-name">PT. Maju Bersama - Glugur</p>
+                <p class="company-name mb-0">PT. Maju Bersama - Glugur</p>
               </div>
-              <span class="badge period-badge">Nov 2024 - Dec 2024</span>
+              <span class="badge period-badge mt-2">Nov 2024 - Dec 2024</span>
             </div>
-            <ul class="experience-list">
-              <li>
-                <span class="bullet-icon">▸</span>
-                <span class="bullet-text"
-                  >Managing inventory levels and maintaining accurate stock
-                  records manually as well as through computerized systems</span
-                >
-              </li>
-              <li>
-                <span class="bullet-icon">▸</span>
-                <span class="bullet-text"
-                  >Responsible for annual stock inventory scheduling and
-                  ensuring smooth transactions between Purchasing team and
-                  Shipment team</span
-                >
-              </li>
-              <li>
-                <span class="bullet-icon">▸</span>
-                <span class="bullet-text"
-                  >Establishing good communication with suppliers to maintain
-                  delivery schedules</span
-                >
-              </li>
-            </ul>
+
+            <div class="training-content">
+              <ul class="experience-list">
+                <li>
+                  <span class="bullet-icon">▸</span>
+                  <span class="bullet-text"
+                    >Managing inventory levels and maintaining accurate stock
+                    records manually as well as through computerized
+                    systems</span
+                  >
+                </li>
+                <li>
+                  <span class="bullet-icon">▸</span>
+                  <span class="bullet-text"
+                    >Responsible for annual stock inventory scheduling and
+                    ensuring smooth transactions between Purchasing team and
+                    Shipment team</span
+                  >
+                </li>
+                <li>
+                  <span class="bullet-icon">▸</span>
+                  <span class="bullet-text"
+                    >Establishing good communication with suppliers to maintain
+                    delivery schedules</span
+                  >
+                </li>
+              </ul>
+            </div>
           </div>
 
           <!-- Training & Course Card -->
@@ -1135,6 +1139,13 @@ export default {
 @media (max-width: 768px) {
   .training-header {
     flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .training-header .d-flex.align-items-center.gap-3.mb-3 {
+    flex-direction: column;
+    align-items: center;
   }
 
   .training-icon {
