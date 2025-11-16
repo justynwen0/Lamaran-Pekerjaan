@@ -35,8 +35,8 @@
               data-aos-delay="200"
             >
               A highly motivated professional leveraging administrative
-              efficiency (Stock Control) with emerging technical skills in **Web
-              Development** (Vue.js, Bootstrap) and **Generative AI** for
+              efficiency (Stock Control) with emerging technical skills in "Web
+              Development" (Vue.js, Bootstrap) and "Generative AI" for
               accelerated productivity and problem-solving.
             </p>
 
@@ -108,20 +108,19 @@
           </h2>
           <div class="content-card" data-aos="fade-up">
             <p class="about-text">
-              As an **Assistant Stock Controller**, I bring hands-on practical
+              As an "Assistant Stock Controller", I bring hands-on practical
               knowledge in inventory management, operational efficiency, and
               system control. Beyond administrative proficiency, I am an
               enthusiastic developer constantly expanding my technical skill
               set.
             </p>
             <p class="about-text">
-              I am proficient in **Frontend Development** (HTML/CSS, Bootstrap
-              5) for building responsive web solutions, actively learning
-              **Vue.js**, and utilizing **Git/GitHub** for effective version
-              control. A key strength is my ability to leverage **Generative AI
-              Tools** (e.g., Gemini AI, ChatGPT, Copilot) for rapid
-              problem-solving, debugging, and code analysis, significantly
-              boosting efficiency.
+              I am proficient in "Frontend Development" (HTML/CSS, Bootstrap 5)
+              for building responsive web solutions, actively learning "Vue.js",
+              and utilizing "Git/GitHub" for effective version control. A key
+              strength is my ability to leverage "Generative AI Tools" (e.g.,
+              Gemini AI, ChatGPT, Copilot) for rapid problem-solving, debugging,
+              and code analysis, significantly boosting efficiency.
             </p>
             <p class="about-text">
               I am driven by a strong eagerness to learn new technologies,
@@ -531,7 +530,6 @@
                     <ul class="tag-list">
                       <li>Node.js (Basic Understanding)</li>
                       <li>MySQL (Academic Proficiency)</li>
-                      <li>Git & GitHub (Version Control)</li>
                     </ul>
                   </div>
 
@@ -546,6 +544,17 @@
                       </li>
                       <li>AI-Assisted Problem Solving & Debugging</li>
                       <li>Codebase Analysis & Web Cloning</li>
+                    </ul>
+                  </div>
+
+                  <div class="skill-group-item">
+                    <h5 class="skill-group-title">
+                      <i class="bi bi-server me-2"></i>
+                      Deployment & DevOps
+                    </h5>
+                    <ul class="tag-list">
+                      <li>Vercel (Deployment and CDN)</li>
+                      <li>Git & GitHub (Version Control)</li>
                     </ul>
                   </div>
                 </div>
@@ -564,9 +573,9 @@
           <div class="content-card mb-4" data-aos="fade-up">
             <p class="about-text mb-4">
               I have successfully developed several web-based projects,
-              including a **Responsive Web Profile** and practice projects such
-              as a **Food Menu Website** and a **Mental Health Website**. All
-              source code and live demos are available via the links below.
+              including a "Responsive Web Profile" and practice projects such as
+              a "Food Menu Website" and a "Mental Health Website". All source
+              code and live demos are available via the links below.
             </p>
 
             <div class="row g-4 justify-content-center mb-5">
@@ -1265,7 +1274,7 @@ export default {
   font-size: 1.25rem;
   font-weight: 600;
   color: #60a5fa; /* Blue color for titles */
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.8rem;
   padding-bottom: 0.5rem;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
