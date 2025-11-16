@@ -518,7 +518,7 @@
                       <li>Bootstrap 5 (CSS Framework)</li>
                       <li>HTML5 / CSS3 / JavaScript</li>
                       <li>Responsive Web Profile Design (End-to-End)</li>
-                      <li>Figma (Basic Prototyping - *In Learning Process*)</li>
+                      <li>Figma (Basic Prototyping - "In Learning Process")</li>
                     </ul>
                   </div>
 
