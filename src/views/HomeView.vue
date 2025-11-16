@@ -530,6 +530,7 @@
                     <ul class="tag-list">
                       <li>Node.js (Basic Understanding)</li>
                       <li>MySQL (Academic Proficiency)</li>
+                      <li>SQL Server Management (Academic Proficiency)</li>
                     </ul>
                   </div>
 
