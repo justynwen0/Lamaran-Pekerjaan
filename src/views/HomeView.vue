@@ -516,9 +516,10 @@
                     <ul class="tag-list">
                       <li>Vue.js (Framework)</li>
                       <li>Bootstrap 5 (CSS Framework)</li>
+                      <li>React.js (Academic Proficiency)</li>
                       <li>HTML5 / CSS3 / JavaScript</li>
                       <li>Responsive Web Profile Design (End-to-End)</li>
-                      <li>Figma (Basic Prototyping - "In Learning Process")</li>
+                      <li>Figma (Academic Proficiency)</li>
                     </ul>
                   </div>
 
@@ -665,7 +666,7 @@
                     ><i class="bi bi-file-code me-1"></i> HTML/CSS</span
                   >
                   <span class="badge project-badge badge-secondary"
-                    ><i class="bi bi-heart me-1"></i> Web Practice</span
+                    ><i class="bi bi-app me-1"></i> Web Practice</span
                   >
                 </a>
               </div>
@@ -689,8 +690,60 @@
                     ><i class="bi bi-file-code me-1"></i> HTML/CSS</span
                   >
                   <span class="badge project-badge badge-secondary"
-                    ><i class="bi bi-cup-hot me-1"></i> Web Practice</span
+                    ><i class="bi bi-app me-1"></i> Web Practice</span
                   >
+                </a>
+              </div>
+
+              <div
+                class="col-lg-4 col-md-6"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                <a
+                  href="https://justynwen0.github.io/Human-Benchmark-Clone/"
+                  target="_blank"
+                  class="project-item-card h-100"
+                >
+                  <h5 class="project-item-title mb-2">Human Benchmark Clone</h5>
+                  <p class="project-item-desc mb-3">
+                    Practice project to create a clone of Human Benchmark
+                    website.
+                  </p>
+                  <div class="d-flex flex-wrap justify-content-center gap-2">
+                    <span class="badge project-badge badge-primary">
+                      <i class="bi bi-file-code me-1"></i> React.js/Javascript
+                    </span>
+                    <span class="badge project-badge badge-secondary">
+                      <i class="bi bi-copy me-1"></i> Web Cloning
+                    </span>
+                  </div>
+                </a>
+              </div>
+
+              <div
+                class="col-lg-4 col-md-6"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                <a
+                  href="https://justynwen0.github.io/Website-Cloning-MAP1/"
+                  target="_blank"
+                  class="project-item-card h-100"
+                >
+                  <h5 class="project-item-title mb-2">MAP Website Clone</h5>
+                  <p class="project-item-desc mb-3">
+                    Practice project to create a clone of Map.Co.id website.
+                  </p>
+                  <div class="d-flex flex-wrap justify-content-center gap-2">
+                    <span class="badge project-badge badge-primary">
+                      <i class="bi bi-file-code me-1"></i>
+                      HTML/CSS
+                    </span>
+                    <span class="badge project-badge badge-secondary">
+                      <i class="bi bi-copy me-1"></i> Web Cloning
+                    </span>
+                  </div>
                 </a>
               </div>
             </div>
