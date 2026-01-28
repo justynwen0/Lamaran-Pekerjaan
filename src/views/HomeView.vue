@@ -375,6 +375,37 @@
                       </div>
                     </div>
                   </div>
+
+                  <!-- Certificate 4 -->
+                  <div class="col-md-4">
+                    <div class="certificate-item" @click="openCertificate(4)">
+                      <div class="cert-image-wrapper">
+                        <img
+                          src="@/assets/cert-gdg.jpg"
+                          alt="Google Developer Group Certificate"
+                          class="cert-image"
+                        />
+                        <div class="cert-overlay">
+                          <i class="bi bi-zoom-in"></i>
+                          <span>Click to view</span>
+                        </div>
+                      </div>
+                      <div class="cert-info">
+                        <h5 class="cert-name">
+                          Google Developer Group Certificate
+                        </h5>
+                        <p class="cert-desc">
+                          Organizing Committee – DevFest Medan 2025 *
+                          Contributed to the successful execution of DevFest
+                          Medan 2025.
+                        </p>
+                        <span class="cert-badge">
+                          <i class="bi bi-calendar-check me-1"></i>
+                          2025
+                        </span>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -588,7 +619,7 @@
                   target="_blank"
                   class="project-link-card pages-card h-100"
                 >
-                  <i class="bi bi-person-circle project-icon me-3"></i>
+                  <i class="bi bi-github project-icon me-3"></i>
                   <div>
                     <h5 class="project-title">Main GitHub Profile</h5>
                     <p class="project-desc">
@@ -602,16 +633,16 @@
               <!--Repository Github -->
               <div class="col-md-6">
                 <a
-                  href="https://github.com/justynwen0?tab=repositories"
+                  href="https://vercel.com/justynwen0s-projects"
                   target="_blank"
                   class="project-link-card github-card h-100"
                 >
-                  <i class="bi bi-github project-icon me-3"></i>
+                  <i class="bi bi-person-circle project-icon me-3"></i>
                   <div>
-                    <h5 class="project-title">Complete Repository List</h5>
+                    <h5 class="project-title">Main Vercel Profiles</h5>
                     <p class="project-desc">
-                      Direct access to the comprehensive list of all my source
-                      codes and projects.
+                      Explore my deployed web projects and applications on my
+                      main profile (Vercel).
                     </p>
                   </div>
                 </a>
@@ -712,7 +743,8 @@
                   </p>
                   <div class="d-flex flex-wrap justify-content-center gap-2">
                     <span class="badge project-badge badge-primary">
-                      <i class="bi bi-file-code me-1"></i> React.js/Javascript
+                      <i class="bi bi-file-code me-1"></i>
+                      Vite/React.js/Javascript
                     </span>
                     <span class="badge project-badge badge-secondary">
                       <i class="bi bi-copy me-1"></i> Web Cloning
@@ -739,6 +771,35 @@
                     <span class="badge project-badge badge-primary">
                       <i class="bi bi-file-code me-1"></i>
                       HTML/CSS
+                    </span>
+                    <span class="badge project-badge badge-secondary">
+                      <i class="bi bi-copy me-1"></i> Web Cloning
+                    </span>
+                  </div>
+                </a>
+              </div>
+
+              <div
+                class="col-lg-4 col-md-6"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                <a
+                  href="https://cloningwebsiteholywingscareer.vercel.app/"
+                  target="_blank"
+                  class="project-item-card h-100"
+                >
+                  <h5 class="project-item-title mb-2">
+                    Holywings Career Website Clone
+                  </h5>
+                  <p class="project-item-desc mb-3">
+                    Practice project to create a clone of Holywings Career
+                    website.
+                  </p>
+                  <div class="d-flex flex-wrap justify-content-center gap-2">
+                    <span class="badge project-badge badge-primary">
+                      <i class="bi bi-file-code me-1"></i>
+                      Vite/React.js
                     </span>
                     <span class="badge project-badge badge-secondary">
                       <i class="bi bi-copy me-1"></i> Web Cloning
@@ -810,6 +871,7 @@ export default {
         1: require("@/assets/cert-grafis.jpg"),
         2: require("@/assets/cert-webdesign.jpg"),
         3: require("@/assets/cert-nvidia.jpg"),
+        4: require("@/assets/cert-gdg.jpg"),
       };
       this.currentCertImage = certImages[certNumber];
       this.showCertModal = true;
