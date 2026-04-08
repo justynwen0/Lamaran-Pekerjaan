@@ -149,7 +149,7 @@
                 <h3 class="experience-title">Assistant Stock Controller</h3>
                 <p class="company-name mb-0">PT. Maju Bersama - Glugur</p>
               </div>
-              <span class="badge period-badge mt-2">Nov 2024 - Dec 2024</span>
+              <span class="badge period-badge mt-2">Sep 2024 - Oct 2024</span>
             </div>
 
             <div class="training-content">
