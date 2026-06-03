@@ -858,8 +858,8 @@ export default {
     downloadCV() {
       // Buat element link temporary
       const link = document.createElement("a");
-      link.href = "/Resume.pdf";
-      link.download = "Resume_Zaviertan_Justyn_Owen.pdf";
+      link.href = "/Curriculum Vitae.pdf";
+      link.download = "Curriculum Vitae.pdf";
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
